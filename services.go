@@ -1,5 +1,7 @@
 package services
 
+// +build darwin dragonfly freebsd linux netbsd openbsd solaris
+
 import (
 	"bufio"
 	"fmt"
